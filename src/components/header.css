@@ -1,0 +1,11 @@
+.sticky{
+    position:sticky;
+    top:0;
+    height:5rem;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
