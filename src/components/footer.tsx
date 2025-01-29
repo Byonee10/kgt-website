@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Container, Grid, Typography, Link } from '@mui/material';
 import bgImage from '../assets/bg.png'; // Import the background image
 

@@ -1,11 +1,10 @@
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-// Import logo image
 import "./header.css";
 import logo from '../assets/logo_linear.jpg';
 import Navtabs from './navtabs';
-
+import odtulogo from "../assets/odtulogo.jpg"
 const Header = () => {
   return (
     <>
@@ -24,6 +23,9 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <Navtabs></Navtabs>
+        <Link to="https://www.metu.edu.tr" className="navbar-brand">
+          <img src={odtulogo} height="78" alt="ODTÜ " />
+        </Link>
       </nav>
     </>
   );

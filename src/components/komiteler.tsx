@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
 import { Box, Grid, Paper, Typography, Collapse, IconButton } from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
 import img from "../assets/bg1.jpg"; // Import the background image
+import { useState } from 'react';
 
 const Komiteler = () => {
   const [expanded, setExpanded] = useState<string | false>(false); // Track expanded state for each card

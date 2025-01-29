@@ -1,5 +1,4 @@
 import { Container, Typography, Accordion, AccordionSummary, AccordionDetails, Box } from '@mui/material';
-// import { Roboto } from '@mui/material/styles';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Organization from './organization';
 import Komiteler from './komiteler';
@@ -9,12 +8,12 @@ const BizKimiz = () => {
     {
       title: <Typography variant='h5' fontFamily="Roboto">Tarihçe</Typography>,
       content:
-        'Falan fişman.',
+        'TARİHÇE',
     },
     {
         title: <Typography variant='h5' fontFamily="Roboto">Misyon</Typography>,
         content:
-        'Şööle böyöle',
+        'Misyon',
     },
     {
         title: <Typography variant='h5' fontFamily="Roboto">Organizasyon</Typography>,

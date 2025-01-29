@@ -5,10 +5,10 @@ const JoinUs = () => {
   return (
     <Box
       sx={{
-         backgroundImage: `url(${bgImage})`, // Replace with actual URL
+         backgroundImage: `url(${bgImage})`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        minHeight: '100vh', // Ensures it covers the full viewport height
+        minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -53,7 +53,7 @@ const JoinUs = () => {
                     boxShadow: 2,
                     textTransform: 'none',
                     '&:hover': {
-                      backgroundColor: 'rgb(255, 87, 34)', // Hover color
+                      backgroundColor: 'rgb(255, 87, 34)', 
                     },
                   }}
                 >
