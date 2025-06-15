@@ -1,25 +1,24 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Header from './components/header';
 import Footer from './components/footer';
-import AppRoutes from './AppRoutes'; // Import AppRoutes for routing
+import AppRoutes from './AppRoutes'; 
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Create theme for Material UI
 const theme = createTheme({
   components: {
     MuiTabs: {
       styleOverrides: {
         indicator: {
-          backgroundColor: 'rgb(237,27,36)', // Custom secondary color (red)
+          backgroundColor: 'rgb(237,27,36)', (red)
         }
       }
     }
   },
   palette: {
     secondary: {
-      main: 'rgb(237,27,36)',  // Custom secondary color (orange-red)
+      main: 'rgb(237,27,36)', (orange-red)
     },
   },
   typography: {
@@ -31,7 +30,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header />
-      <AppRoutes /> {/* Use AppRoutes for routing */}
+      <AppRoutes /> 
       <Footer />
     </ThemeProvider>
   );
