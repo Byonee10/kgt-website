@@ -10,7 +10,6 @@ import bg5 from '../assets/bg5.jpg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Create the theme for Material UI
 const theme = createTheme({
   components: {
     MuiTypography: {
@@ -35,7 +34,6 @@ const theme = createTheme({
   },
 });
 
-// Content for the page (Image and text pairings)
 const content = [
   {
     image: bg1,
@@ -55,15 +53,12 @@ const content = [
 ];
 
 const About = () => {
-  // State to manage Snackbar visibility
   const [openSnackbar, setOpenSnackbar] = useState(false);
 
-  // UseEffect to show the Snackbar when the page loads
   useEffect(() => {
     setOpenSnackbar(true);
   }, []);
 
-  // Handle Snackbar close
   const handleCloseSnackbar = () => {
     setOpenSnackbar(false);
   };
@@ -113,7 +108,6 @@ const About = () => {
         </Grid>
       </Container>
 
-      {/* Snackbar (non-modal alert) that appears when the page loads */}
       <Snackbar
         open={openSnackbar}
         autoHideDuration={6000}
