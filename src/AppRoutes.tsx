@@ -63,7 +63,7 @@ const AppRoutes = () => {
             </motion.div>
           }
         />
-        {/* Add other routes for different pages if necessary */}
+      
       </Routes>
     </AnimatePresence>
   );
