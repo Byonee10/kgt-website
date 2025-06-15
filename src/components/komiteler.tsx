@@ -1,13 +1,13 @@
 import { Box, Grid, Paper, Typography, Collapse, IconButton } from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
-import img from "../assets/bg1.jpg"; // Import the background image
+import img from "../assets/bg1.jpg";
 import { useState } from 'react';
 
 const Komiteler = () => {
-  const [expanded, setExpanded] = useState<string | false>(false); // Track expanded state for each card
+  const [expanded, setExpanded] = useState<string | false>(false); 
 
   const togglePanel = (panel: string) => {
-    setExpanded(expanded === panel ? false : panel); // Toggle the selected panel
+    setExpanded(expanded === panel ? false : panel); 
   };
 
   const committees = [
@@ -30,7 +30,7 @@ const Komiteler = () => {
                 height: '300px',
                 borderRadius: 2,
                 overflow: 'hidden',
-                backgroundImage: `url(${img})`, // Use the imported image
+                backgroundImage: `url(${img})`, 
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 boxShadow: 3,
