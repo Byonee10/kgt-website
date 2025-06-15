@@ -1,19 +1,18 @@
 import { Box, Container, Grid, Typography, Link } from '@mui/material';
-import bgImage from '../assets/bg.png'; // Import the background image
+import bgImage from '../assets/bg.png'; 
 
 const Footer = () => {
   return (
     <Box sx={{
-      backgroundImage: `url(${bgImage})`, // Use the imported image
-      backgroundColor: 'rgb(237, 27, 36)', // Red background color
-      backgroundPosition: 'center', // Centers the image
+      backgroundImage: `url(${bgImage})`, 
+      backgroundColor: 'rgb(237, 27, 36)', 
+      backgroundPosition: 'center', 
       paddingTop: 5,
       color: 'white',
       paddingBottom: 5
     }}>
       <Container>
         <Grid container spacing={4}>
-          {/* Address Section */}
           <Grid item xs={12} sm={6}>
             <Typography variant="h6" color="white">
               ODTÜ Klasik Gitar Topluluğu
@@ -27,7 +26,6 @@ const Footer = () => {
             </ul>
           </Grid>
 
-          {/* Navigation Section */}
           <Grid item xs={12} sm={3}>
             <Typography variant="h6" color="white">
               Navigasyon
@@ -40,7 +38,6 @@ const Footer = () => {
             </ul>
           </Grid>
 
-          {/* Social Media Section */}
           <Grid item xs={12} sm={3}>
             <Typography variant="h6" color="white">
               Sosyal Medya
@@ -53,7 +50,6 @@ const Footer = () => {
           </Grid>
         </Grid>
 
-        {/* Footer Bottom */}
         <Box sx={{ borderTop: 1, borderColor: 'white', paddingTop: 2, marginTop: 4 }}>
           <Typography variant="body2" color="white" align="center">
             <Link href="https://www.linkedin.com/in/caglar-bulgay" color="inherit" underline="hover" sx={{ '&:hover': { color: 'yellow' } }}>
