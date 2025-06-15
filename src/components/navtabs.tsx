@@ -36,7 +36,6 @@ export default function NavTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
-    // event.type can be equal to focus with selectionFollowsFocus.
     if (
       event.type !== 'click' ||
       (event.type === 'click' &&
