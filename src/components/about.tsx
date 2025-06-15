@@ -29,7 +29,7 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: 'rgb(237, 27, 36)',  // Custom primary color (red)
+      main: 'rgb(237, 27, 36)',  
     },
   },
 });
@@ -90,7 +90,7 @@ const About = () => {
                   }}
                 >
                   <Box sx={{
-                    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adds a dark overlay for readability
+                    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
                     padding: '2rem',
                     borderRadius: 2,
                   }}>
@@ -120,7 +120,7 @@ const About = () => {
           sx={{
             width: '100%',
             borderRadius: 2,
-            backgroundColor: 'rgb(237, 27, 36)', // Match the theme's primary color
+            backgroundColor: 'rgb(237, 27, 36)', 
             color: 'white',
             padding: '1rem',
             fontSize: '1rem',
@@ -131,7 +131,7 @@ const About = () => {
         >
           <Typography sx={{ flex: 1 }}>Bize Katıl formuna ulaşmak için hemen tıklayın!</Typography>
           <Button
-            component="a" // Using an anchor tag for external link (Google in this case)
+            component="a" 
             href="https://www.google.com"
             target="_blank"
             color="secondary"
@@ -141,7 +141,7 @@ const About = () => {
               paddingLeft: '1rem',
               paddingRight: '1rem',
               backgroundColor: 'white',
-              color: 'rgb(237, 27, 36)', // Match the theme's primary color
+              color: 'rgb(237, 27, 36)',
               '&:hover': {
                 backgroundColor: 'rgba(255, 255, 255, 0.8)',
               }
