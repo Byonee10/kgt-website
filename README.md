@@ -8,7 +8,7 @@ Etkinlikler sekmesine geçmiş etkinlikler (arşiv) eklenmesi
 Veritabanı için sunucu ayarlanması (Bilgi işlem ile görüşüp)  
 Biz kimiz sekmesine içerik eklenmesi ve formatting düzenlemesi  
 
-**Bug**  
+**Bug(s)**  
 Ana sayfaya direkt link verildiği taktirde içerik görünmüyor. Başka sekmeden geçerken fonksiyonu normal  
 
 **URL**  
